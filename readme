@@ -1,0 +1,7 @@
+zrps is an implementation of AI & compression being the same
+
+It guesses that the most likely play from the opponent will be the move which is most compressible when added to their move history
+
+Params
+* `bz2` will use bzip2 instead of zlib
+* `aivai` will face bzip2 against gzip
