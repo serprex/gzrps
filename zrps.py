@@ -55,5 +55,5 @@ def main():
 			score += s
 			print(("You lose", "Tie", "You win")[s+1])
 			gg.append(g)
-			c = choose(gg, zl)
+			c = choose(gg, compress)
 main()
